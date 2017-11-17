@@ -1,0 +1,167 @@
+/* Basic Grey */
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1000px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+
+
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"],.basic-grey input[type="number"], .basic-grey input[type="email"], .basic-grey textarea {
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    /*text-indent: 0.01px;*/
+    /*text-overflow: '';*/
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey .button {
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    background: #2d8b9c;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+
+.basic-grey .input_fields_wrap input{
+	width:90%;
+	margin-left: 20px;	
+}
+
+.basic-grey .add_field_button{		
+    margin-left: 33%;
+	margin-bottom: 10px;
+}
+
+.basic-grey .center_container{
+	margin-left:30%;
+	margin-bottom: 10px;
+}
+
+
+.basic-grey .radio_container{
+	margin-left:20%;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+
+.basic-grey .button:hover {
+    background: #1f616d
+}
+
+.basic-grey .input_fields_wrap p{
+	text-align:center;
+	font-size: 14px;
+}
+
+.basic-grey .error{
+	border:solid 1px #E58E8E;       
+    display:block;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#FF7979;
+}
+.basic-grey .success{
+	margin: 10px;
+	font-size: 15px;
+}
+
+.basic-grey  #preview{
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #4B70FF;
+}
+
+.basic-grey .success h2{
+	font-size: 20px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: 10px -15px 30px -10px;;
+    color: #888;
+}
+
+.basic-grey .success a{
+	background: #2DD038;
+	text-decoration: none;
+	margin: 1px;
+	color: #FDFDFD;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+.basic-grey .success textarea{
+	height: 60px;
+}
+
+.basic-grey .success li{
+	margin: 5px;
+}
+
+.basic-grey .error h3{
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	color: white;
+}
